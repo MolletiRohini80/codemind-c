@@ -16,21 +16,21 @@ int main()
             max=a[c];
         }
     }
-    //printf("%d",max);
-     for(max;max>0;max--)
-     {
-         i=0;
-         for(d=0;d<n;d++)
-         {
-             if(a[d]%max==0)
-             {
-                 i++;
-             }
-         }
-         if(i==n)
-         {
-             printf("%d",max);
-             break;
-         }
-     }
-}
+     //printf("%d",max);
+          for(max;max>0;max--)
+          {
+              i=0;
+              for(d=0;d<n;d++)
+              {
+                  if(a[d]%max==0)
+                  {
+                      i++;
+                  }
+              }
+              if(i==n)
+              {
+                 printf("%d",max);
+                  break;
+              }
+          }
+} 
